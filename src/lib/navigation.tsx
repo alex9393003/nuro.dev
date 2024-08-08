@@ -33,20 +33,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Timeline',
 			href: '/timeline',
 		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:link',
-			text: 'Referrals',
-			href: '/referrals',
-		},
 	],
 	[
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:twitter',
-			text: 'Twitter',
-			href: 'https://twitter.com/nurodev',
-			external: true,
+			icon: 'feather:book',
+			text: 'Portofolio',
+			href: '/referrals',
 		},
 		{
 			type: NavigationItemType.LINK,
